@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+  background-image:linear-gradient(#80bde4,#4870a5);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 1400px;
+  height: 800px;
+  background-color: black;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+header, main, aside, nav, footer {
+  text-align: center;
+  vertical-align: center;
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+}
+
+main {
+  height: 600px;
+  width: 70%;
+  border: 1px solid black;
+}
+
+nav , aside {
+  width: 15%;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+}
